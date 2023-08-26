@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gotham Light';
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.button {
+    width: 100%;
+}
+.div_logo {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 150px 0 150px;
+}
+
+.logo-img {
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    margin: 0 0 30px 0;
+    cursor: pointer;
+}
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.textfeild {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.forgot {
+    text-align: right;
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            color: #898989;
+        }
+    }
+}

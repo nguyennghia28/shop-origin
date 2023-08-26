@@ -1,0 +1,59 @@
+.new-user {
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.add-user-form {
+    margin-top: 10px;
+}
+
+.add-user-item {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.add-user-item > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.add-user-item > input {
+    padding: 10px;
+}
+
+.add-user-item > select {
+    padding: 10px;
+}
+
+.select-item {
+    border: 1px solid #cccccc;
+    height: 46px;
+    margin: 5px 5px 5px 0;
+    width: 500px;
+}
+
+.input-feedback {
+    font-size: 11px;
+    margin-bottom: 15px;
+    color: red;
+    display: block;
+
+    &::before {
+        content: '* ';
+        font-size: 13px;
+    }
+}
+
+.textfeild {
+    color: #cccccc;
+    cursor: not-allowed;
+}
+
+.button {
+    margin: 10px 10px 10px 0px;
+    min-width: 500px;
+}

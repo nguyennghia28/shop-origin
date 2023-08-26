@@ -1,0 +1,95 @@
+.topbar {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.topbar-wrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img {
+    width: 100px;
+    height: 50px;
+    padding-top: 15px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.logo {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.topbar-icon-container {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
+
+.top-icon-badge {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.user-avt {
+    padding: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.top-avatar {
+    color: white;
+    // width: 75px;
+    // height: 75px;
+
+    font-size: 20px;
+}
+
+.ant-btn {
+    margin: 10px;
+    width: 120px;
+    text-align: left;
+    padding: 0;
+    border: none;
+    font-weight: 600;
+}
+.ant-btn-logout {
+    margin: 10px;
+    width: 120px;
+    text-align: left;
+    padding: 0;
+    border: none;
+    font-weight: 600;
+    color: red;
+}
+// .ant-btn {
+//     margin-left: 8px;
+//     margin-right: 0;
+// }

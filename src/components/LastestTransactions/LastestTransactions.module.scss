@@ -1,0 +1,86 @@
+.widget-lg {
+    flex: 2;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.widget-lg-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.widget-lg-table {
+    width: 100%;
+    // border-spacing: 20px;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+}
+
+.widget-lg-th {
+    text-align: left;
+    color: #5550bd;
+    border: 1px solid #cccccc;
+    // border-bottom: 1px solid blue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.widget-lg-user {
+    // display: flex;
+    // align-items: center;
+    font-weight: 600;
+    // border: 1px solid #cccccc;
+}
+
+// .widget-lg-img {
+//     width: 40px;
+//     height: 40px;
+//     border-radius: 50%;
+//     object-fit: cover;
+//     margin-right: 10px;
+// }
+
+.widget-lg-date {
+    font-weight: 300;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.widget-lg-amount {
+    font-weight: 300;
+    border: 1px solid #cccccc;
+    text-align: right;
+}
+.widget-lg-status {
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.widget-lg-button {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.widget-lg-button.PENDING {
+    background-color: #e5faf2;
+    color: yellowgreen;
+}
+.widget-lg-button.PACKAGE {
+    background-color: #fff0f1;
+    color: gray;
+}
+.widget-lg-button.DELIVERING {
+    background-color: #ebf1fe;
+    color: #2a7ade;
+}
+
+.widget-lg-button.COMPLETE {
+    background-color: #ebf1fe;
+    color: #3bb077;
+}
+.widget-lg-button.CANCEL {
+    background-color: #ebf1fe;
+    color: #d95087;
+}

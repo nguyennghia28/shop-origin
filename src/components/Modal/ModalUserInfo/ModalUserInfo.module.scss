@@ -1,0 +1,39 @@
+.new-user {
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.add-user-form {
+    margin-top: 10px;
+}
+
+.add-user-item {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.add-user-item > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.add-user-item > input {
+    padding: 10px;
+}
+
+.add-user-item > select {
+    padding: 10px;
+}
+
+.button {
+    margin: 10px 10px 10px 0px;
+    width: 500px;
+}
+.textfeild {
+    color: black;
+    cursor: not-allowed;
+}

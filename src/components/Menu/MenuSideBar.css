@@ -1,0 +1,11 @@
+.ant-menu {
+    flex: 1;
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 55px;
+    padding: 10px 0 20px 0px;
+}
+.ant-menu-title-content {
+    font-weight: 600;
+    font-size: 15px;
+}

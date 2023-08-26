@@ -1,0 +1,51 @@
+.new-promotion {
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.add-promotion-form {
+    margin-top: 10px;
+}
+
+.add-promotion-item {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.add-promotion-item > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.add-promotion-item > input {
+    padding: 10px;
+}
+
+.add-promotion-item > select {
+    padding: 10px;
+}
+
+.button {
+    margin: 10px 10px 10px 0px;
+    width: 500px;
+}
+
+.date-picker {
+    height: 46px;
+    border-radius: 0;
+}
+.input-feedback {
+    font-size: 11px;
+    margin-bottom: 15px;
+    color: red;
+    display: block;
+
+    &::before {
+        content: '* ';
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,251 @@
+.orderupdate {
+    flex: 4;
+    padding: 0 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.orderupdate-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderupdate-add-button {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    margin-right: 20px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.orderupdate-top {
+    // display: flex;
+    flex: 1;
+}
+
+.orderupdate-top-left,
+.orderupdate-top-right {
+    flex: 1;
+}
+
+.orderupdate-top-right {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.orderupdate-info-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.orderupdate-info-top {
+    display: flex;
+    align-items: center;
+}
+
+.orderupdate-name {
+    font-weight: 600;
+}
+
+.orderupdate-info-bottom {
+    margin-top: 10px;
+}
+
+.orderupdate-info-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderupdate-info-key {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 7px;
+}
+
+.orderupdate-info-value {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 7px;
+}
+
+.orderupdate-bottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.orderupdate-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderupdate-form-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderupdate-form-left > label {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.orderupdate-form-left > input {
+    width: 550px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.orderupdate-form-left > select {
+    margin-bottom: 10px;
+}
+
+.orderupdate-upload-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.orderupdate-form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    padding-right: 180px;
+}
+
+.orderupdate-upload {
+    display: flex;
+    align-items: center;
+}
+
+.orderupdate-button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.add-orderupdate-form {
+    // padding-left: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lable-update {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 20px 20px 0;
+}
+
+.add-orderupdate-item {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.add-orderupdate-item > label {
+    // justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.button {
+    margin: 10px 10px 10px 10px;
+    width: 700px;
+}
+
+.select-item {
+    border: 1px solid #cccccc;
+    height: 46px;
+    margin: 5px 5px 5px 0;
+    width: 1000px;
+}
+.input-feedback {
+    font-size: 11px;
+    margin-bottom: 15px;
+    color: red;
+    display: block;
+
+    &::before {
+        content: '* ';
+        font-size: 13px;
+    }
+}
+
+.img {
+    position: relative;
+}
+
+.list-img {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.item-img {
+    margin: 10px 10px 10px 0;
+    width: 245px;
+    height: 245px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+.input-image {
+    width: 245px;
+    height: 45px;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    &:hover {
+        color: #000000;
+        background: #ffffff;
+        border-color: #000000;
+    }
+}
+.btn-x {
+    color: black;
+    font-weight: 600;
+    width: 25px;
+    height: 25px;
+    padding-left: 4px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.textfeild {
+    color: #cccccc;
+    cursor: not-allowed;
+}

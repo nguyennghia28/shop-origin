@@ -1,0 +1,35 @@
+.new-collection {
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.add-collection-form {
+    margin-top: 10px;
+}
+
+.add-collection-item {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.add-collection-item > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.add-collection-item > input {
+    padding: 10px;
+}
+
+.add-collection-item > select {
+    padding: 10px;
+}
+
+.button {
+    margin: 10px 10px 10px 0px;
+    width: 500px;
+}
